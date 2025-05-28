@@ -1,0 +1,40 @@
+.ordenamiento-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #fffaf6;*/
+    /*padding: 1rem 2rem;*/
+    border-radius: 8px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.ordenamiento-grupo {
+    display: flex;
+    gap: 1rem;
+}
+
+.ordenamiento-grupo button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #e56b5d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ordenamiento-grupo button:hover {
+    background-color: #c64e43;
+}
+
+.ordenamiento-grupo.derecha {
+    /*justify-content: flex-end;*/
+    width: 100%;
+    padding-left: 40px;
+}
+
+.ordenamiento-grupo.izquierda {
+    width: 100%;
+    justify-content: flex-start;
+}
